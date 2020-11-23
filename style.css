@@ -1,0 +1,31 @@
+ul{
+    list-style-type:none;
+    border:1px solid white;
+    background-color: black;
+}
+li{
+    float:left;
+}
+.nav-right{
+float:right;
+}
+li a{
+    display:block;
+    text-decoration: none;
+    color: black;
+    padding:14px;
+}
+li a:hover{
+    background-color: black;
+    color: green;
+}
+.active{
+    background-color: green;
+    color:white;
+}
+h1{
+    border: 1px solid black;
+    border-radius: 14px;
+    width:50%;
+}
+
